@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { useCart } from "../Context/CartContext";
 import { FaPlus, FaMinus, FaTrash } from "react-icons/fa";
 import axios from "axios";
-import OrderSuccess from "./OrderSuccess";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
+import OrderSuccessModal from "../components/OrderSuccess";
+
 
 const Cart = () => {
   const { cart, addToCart, removeFromCart, updateQuantity } = useCart();
@@ -19,6 +20,8 @@ const Cart = () => {
   const [cvv, setCvv] = useState("");
   const [upiId, setUpiId] = useState("");
   const [showSuccess, setShowSuccess] = useState(false);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+
 
   const navigate = useNavigate();
 
@@ -64,7 +67,7 @@ const Cart = () => {
     try {
       await axios.post("http://localhost:5000/api/orders/place-order", order);
 
-      setShowSuccess(true); 
+      setShowSuccessModal(true); 
 
       setTimeout(() => {
         setShowSuccess(false);
@@ -238,11 +241,13 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      {showSuccess && (
-        <div className="mt-4 p-2 bg-green-100 text-green-700 rounded">
-          ✅ Order placed successfully!
-        </div>
-      )}
+      <OrderSuccessModal
+  isOpen={showSuccessModal}
+  onClose={() => setShowSuccessModal(false)}
+  orderId="12345"
+  orderNumber="7890"
+/>
+
     </div>
   );
 };
