@@ -1,0 +1,8 @@
+[
+  { "src": "/tshirt.png", "alt": "T-Shirt" },
+  { "src": "/keyboard.png", "alt": "Keyboard" },
+  { "src": "/shoes.png", "alt": "Shoes" },
+  { "src": "/sunglasses.png", "alt": "Sunglasses" },
+  { "src": "/dress.png", "alt": "Dress" },
+  { "src": "/smartwatch.png", "alt": "Smart Watch" }
+]

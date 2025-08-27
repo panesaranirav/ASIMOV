@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/FP1.png",
+    "brand": "Zara",
+    "name": "High-Waist Wide Leg Pants",
+    "review": 4.7,
+    "discountPrice": "1499",
+    "price": "2199",
+    "size": ["28", "30", "32"],
+    "category": "womens-pant"
+  },
+  {
+    "id": 2,
+    "image": "/FP2.png",
+    "brand": "H&M",
+    "name": "Skinny Fit Ankle-Length Jeans",
+    "review": 4.5,
+    "discountPrice": "1299",
+    "price": "1899",
+    "size": ["26", "28", "30"],
+    "category": "womens-pant"
+  },
+  {
+    "id": 3,
+    "image": "/FP3.png",
+    "brand": "Forever 21",
+    "name": "Flared Corduroy Trousers",
+    "review": 4.2,
+    "discountPrice": "1199",
+    "price": "1699",
+    "size": ["28", "30", "34"],
+    "category": "womens-pant"
+  },
+  {
+    "id": 4,
+    "image": "/FP4.png",
+    "brand": "ONLY",
+    "name": "Slim Fit Jeggings",
+    "review": 4.6,
+    "discountPrice": "999",
+    "price": "1399",
+    "size": ["26", "28", "30", "32"],
+    "category": "womens-pant"
+  },
+  {
+    "id": 5,
+    "image": "/FP5.png",
+    "brand": "AND",
+    "name": "Straight Fit Formal Trousers",
+    "review": 4.4,
+    "discountPrice": "1399",
+    "price": "1999",
+    "size": ["28", "30", "32"],
+    "category": "womens-pant"
+  },
+  {
+    "id": 6,
+    "image": "/FP6.png",
+    "brand": "Levi's",
+    "name": "721 High Rise Skinny Jeans",
+    "review": 4.8,
+    "discountPrice": "1799",
+    "price": "2499",
+    "size": ["26", "28", "30", "32"],
+    "category": "womens-pant"
+  },
+  {
+    "id": 7,
+    "image": "/FP7.png",
+    "brand": "Biba",
+    "name": "Printed Ethnic Palazzo",
+    "review": 4.1,
+    "discountPrice": "899",
+    "price": "1299",
+    "size": ["M", "L", "XL"],
+    "category": "womens-pant"
+  },
+  {
+    "id": 8,
+    "image": "/FP8.png",
+    "brand": "W for Woman",
+    "name": "Cigarette Fit Solid Trousers",
+    "review": 4.3,
+    "discountPrice": "1099",
+    "price": "1599",
+    "size": ["S", "M", "L", "XL"],
+    "category": "womens-pant"
+  }
+]

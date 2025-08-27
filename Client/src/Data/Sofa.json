@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/SF1.png",
+    "brand": "IKEA",
+    "name": "EKTORP 3-Seat Sofa",
+    "review": 4.6,
+    "discountPrice": "19999",
+    "price": "24999",
+    "size": ["3-Seater"],
+    "category": "sofa"
+  },
+  {
+    "id": 2,
+    "image": "/SF2.png",
+    "brand": "Urban Ladder",
+    "name": "Recliner Sofa Set",
+    "review": 4.4,
+    "discountPrice": "32999",
+    "price": "37999",
+    "size": ["2-Seater", "3-Seater"],
+    "category": "sofa"
+  },
+  {
+    "id": 3,
+    "image": "/SF3.png",
+    "brand": "Home Centre",
+    "name": "Brenner Fabric Sofa",
+    "review": 4.2,
+    "discountPrice": "17999",
+    "price": "21999",
+    "size": ["3-Seater"],
+    "category": "sofa"
+  },
+  {
+    "id": 4,
+    "image": "/SF4.png",
+    "brand": "Wakefit",
+    "name": "L-Shaped Corner Sofa",
+    "review": 4.7,
+    "discountPrice": "24999",
+    "price": "29999",
+    "size": ["L-Shaped"],
+    "category": "sofa"
+  },
+  {
+    "id": 5,
+    "image": "/SF5.png",
+    "brand": "Pepperfry",
+    "name": "Lounger Sofa with Storage",
+    "review": 4.5,
+    "discountPrice": "28999",
+    "price": "34999",
+    "size": ["2-Seater", "L-Shaped"],
+    "category": "sofa"
+  },
+  {
+    "id": 6,
+    "image": "/SF6.png",
+    "brand": "Durian",
+    "name": "Leatherette Sofa Set",
+    "review": 4.3,
+    "discountPrice": "31999",
+    "price": "37999",
+    "size": ["3-Seater"],
+    "category": "sofa"
+  },
+  {
+    "id": 7,
+    "image": "/SF7.png",
+    "brand": "Nilkamal",
+    "name": "Wooden Frame Sofa",
+    "review": 4.1,
+    "discountPrice": "15999",
+    "price": "20999",
+    "size": ["1-Seater", "2-Seater"],
+    "category": "sofa"
+  },
+  {
+    "id": 8,
+    "image": "/SF8.png",
+    "brand": "Godrej Interio",
+    "name": "Modern Fabric Sofa Set",
+    "review": 4.4,
+    "discountPrice": "26999",
+    "price": "31999",
+    "size": ["3-Seater", "L-Shaped"],
+    "category": "sofa"
+  }
+]

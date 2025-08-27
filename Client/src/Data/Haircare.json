@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/HC1.png",
+    "brand": "L'Oréal Paris",
+    "name": "Total Repair 5 Shampoo",
+    "review": 4.6,
+    "discountPrice": "299",
+    "price": "349",
+    "size": ["175ml", "340ml", "650ml"],
+    "category": "haircare-kit"
+  },
+  {
+    "id": 2,
+    "image": "/HC2.png",
+    "brand": "Pantene",
+    "name": "Advanced Hair Fall Solution Conditioner",
+    "review": 4.4,
+    "discountPrice": "249",
+    "price": "299",
+    "size": ["180ml", "360ml"],
+    "category": "haircare-kit"
+  },
+  {
+    "id": 3,
+    "image": "/HC3.png",
+    "brand": "Mamaearth",
+    "name": "Onion Hair Oil",
+    "review": 4.5,
+    "discountPrice": "399",
+    "price": "499",
+    "size": ["150ml", "250ml"],
+    "category": "haircare-kit"
+  },
+  {
+    "id": 4,
+    "image": "/HC4.png",
+    "brand": "WOW Skin Science",
+    "name": "Apple Cider Vinegar Shampoo",
+    "review": 4.3,
+    "discountPrice": "349",
+    "price": "499",
+    "size": ["300ml"],
+    "category": "haircare-kit"
+  },
+  {
+    "id": 5,
+    "image": "/HC5.png",
+    "brand": "Dove",
+    "name": "Intense Repair Shampoo",
+    "review": 4.2,
+    "discountPrice": "275",
+    "price": "325",
+    "size": ["180ml", "340ml"],
+    "category": "haircare-kit"
+  },
+  {
+    "id": 6,
+    "image": "/HC6.png",
+    "brand": "Biotique",
+    "name": "Bio Bhringraj Therapeutic Hair Oil",
+    "review": 4.1,
+    "discountPrice": "145",
+    "price": "175",
+    "size": ["120ml", "200ml"],
+    "category": "haircare-kit"
+  },
+  {
+    "id": 7,
+    "image": "/HC7.png",
+    "brand": "Tresemme",
+    "name": "Keratin Smooth Shampoo",
+    "review": 4.4,
+    "discountPrice": "325",
+    "price": "410",
+    "size": ["190ml", "340ml", "580ml"],
+    "category": "haircare-kit"
+  },
+  {
+    "id": 8,
+    "image": "/HC8.png",
+    "brand": "Indulekha",
+    "name": "Bringha Ayurvedic Hair Oil",
+    "review": 4.5,
+    "discountPrice": "399",
+    "price": "499",
+    "size": ["100ml", "200ml"],
+    "category": "haircare-kit"
+  }
+]

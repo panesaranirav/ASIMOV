@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/MT4.png",
+    "brand": "Mood Apparel",
+    "name": "Silent Strength",
+    "review": 4.6,
+    "discountPrice": "599",
+    "price": "849",
+    "size": ["M", "L", "XL"],
+    "category": "t-shirt"
+  },
+  {
+    "id": 2,
+    "image": "/MT10.png",
+    "brand": "MinimalVibe",
+    "name": "Stay Humble - Olive Green Tee",
+    "review": 4.8,
+    "discountPrice": "599",
+    "price": "899",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "category": "t-shirt"
+  },
+  {
+    "id": 3,
+    "image": "/MT9.png",
+    "brand": "BoldLine",
+    "name": "Pain Builds Character - Grey",
+    "review": 4.5,
+    "discountPrice": "599",
+    "price": "820",
+    "size": ["L", "XL", "XXL"],
+    "category": "t-shirt"
+  },
+  {
+    "id": 4,
+    "image": "/MT11.png",
+    "brand": "Urban Threads",
+    "name": "Focus - Mustard Yellow Tee",
+    "review": 4.3,
+    "discountPrice": "599",
+    "price": "780",
+    "size": ["S", "M", "L"],
+    "category": "t-shirt"
+  },
+  {
+    "id": 5,
+    "image": "/MT7.png",
+    "brand": "StreetWear Co.",
+    "name": "Let Go - Sky Blue Tee",
+    "review": 4.2,
+    "discountPrice": "599",
+    "price": "770",
+    "size": ["M", "L"],
+    "category": "t-shirt"
+  },
+  {
+    "id": 6,
+    "image": "/MT6.png",
+    "brand": "MinimalVibe",
+    "name": "Love Heals - Pastel Pink Tee",
+    "review": 4.9,
+    "discountPrice": "599",
+    "price": "860",
+    "size": ["S", "M", "L", "XL"],
+    "category": "t-shirt"
+  },
+  {
+    "id": 7,
+    "image": "/MT8.png",
+    "brand": "BoldLine",
+    "name": "Inner Peace - Beige Tee",
+    "review": 4.6,
+    "discountPrice": "599",
+    "price": "810",
+    "size": ["L", "XL", "XXL"],
+    "category": "t-shirt"
+  },
+  {
+    "id": 8,
+    "image": "/MT4.png",
+    "brand": "Mood Apparel",
+    "name": "Keep Going - White Tee",
+    "review": 4.7,
+    "discountPrice": "599",
+    "price": "790",
+    "size": ["S", "M", "L"],
+    "category": "t-shirt"
+  }
+]

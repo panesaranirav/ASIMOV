@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "/PF1.webp",
+    "brand": "Dior",
+    "name": "Miss Dior Eau de Parfum",
+    "review": 4.8,
+    "discountPrice": "7499",
+    "price": "8999",
+    "size": ["50ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 2,
+    "image": "/PF2.webp",
+    "brand": "Chanel",
+    "name": "Coco Mademoiselle",
+    "review": 4.9,
+    "discountPrice": "7999",
+    "price": "9499",
+    "size": ["50ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 3,
+    "image": "/PF3.png",
+    "brand": "Versace",
+    "name": "Bright Crystal",
+    "review": 4.6,
+    "discountPrice": "5599",
+    "price": "6999",
+    "size": ["30ml", "90ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 4,
+    "image": "/PF4.png",
+    "brand": "Gucci",
+    "name": "Bloom Eau de Parfum",
+    "review": 4.7,
+    "discountPrice": "6599",
+    "price": "7999",
+    "size": ["50ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 5,
+    "image": "/PF5.png",
+    "brand": "Calvin Klein",
+    "name": "Euphoria For Women",
+    "review": 4.5,
+    "discountPrice": "4499",
+    "price": "5999",
+    "size": ["50ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 6,
+    "image": "/PF6.png",
+    "brand": "Armani",
+    "name": "Si Eau de Parfum",
+    "review": 4.6,
+    "discountPrice": "6999",
+    "price": "8499",
+    "size": ["30ml", "50ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 7,
+    "image": "/PF7.png",
+    "brand": "Tom Ford",
+    "name": "Black Orchid",
+    "review": 4.4,
+    "discountPrice": "8999",
+    "price": "10499",
+    "size": ["50ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 8,
+    "image": "/PF8.png",
+    "brand": "Burberry",
+    "name": "Her London Dream",
+    "review": 4.3,
+    "discountPrice": "5999",
+    "price": "7499",
+    "size": ["30ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 9,
+    "image": "/PF9.png",
+    "brand": "YSL",
+    "name": "Libre Eau de Parfum",
+    "review": 4.7,
+    "discountPrice": "7299",
+    "price": "8799",
+    "size": ["50ml", "90ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 10,
+    "image": "/PF10.png",
+    "brand": "Marc Jacobs",
+    "name": "Daisy Love",
+    "review": 4.5,
+    "discountPrice": "6499",
+    "price": "7999",
+    "size": ["30ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 11,
+    "image": "/PF11.png",
+    "brand": "Jo Malone",
+    "name": "Peony & Blush Suede",
+    "review": 4.6,
+    "discountPrice": "7599",
+    "price": "8999",
+    "size": ["50ml", "100ml"],
+    "category": "perfume"
+  },
+  {
+    "id": 12,
+    "image": "/PF12.png",
+    "brand": "Victoria's Secret",
+    "name": "Bombshell Eau de Parfum",
+    "review": 4.4,
+    "discountPrice": "4999",
+    "price": "6499",
+    "size": ["50ml", "100ml"],
+    "category": "perfume"
+  }
+]

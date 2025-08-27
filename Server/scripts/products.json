@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1.1,
+    "name": "T-Shirt",
+    "image": "/TShirt.png",
+    "category": "tshirt",
+    "price": "499",
+    "discountPrice": "399",
+    "ref": "7505/548-V2021",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "review": 4.6
+  },
+  {
+    "id": 1.2,
+    "name": "Pant",
+    "image": "/Mpaint.png",
+    "category": "pant",
+    "price": "₹899",
+    "discountPrice": "₹749",
+    "ref": "7505/549-V2021",
+    "size": ["M", "L", "XL"],
+    "review": 4.3
+  },
+  {
+    "id": 1.3,
+    "name": "womens-pant",
+    "image": "/Fpaint.png",
+    "category": "womens-pant",
+    "price": "₹849",
+    "discountPrice": "₹699",
+    "ref": "7505/550-V2021",
+    "size": ["S", "M", "L"],
+    "review": 4.5
+  },
+  {
+    "id": 1.4,
+    "name": "Shoes",
+    "image": "/Shoe.png",
+    "category": "Shoes",
+    "price": "₹1199",
+    "discountPrice": "₹999",
+    "ref": "7505/551-V2021",
+    "size": ["7", "8", "9", "10", "11"],
+    "review": 4.4
+  },
+  {
+    "id": 1.5,
+    "name": "Dress",
+    "image": "/Dress.png",
+    "category": "clothing",
+    "price": "₹1299",
+    "discountPrice": "₹1099",
+    "ref": "7505/552-V2021",
+    "size": ["S", "M", "L", "XL"],
+    "review": 4.6
+  },
+  {
+    "id": 1.6,
+    "name": "Laptop",
+    "image": "/Leptop.png",
+    "category": "electronics",
+    "price": "₹49999",
+    "discountPrice": "₹45999",
+    "ref": "7505/553-V2021",
+    "size": ["4GB", "8GB", "16GB"],
+    "review": 4.8
+  },
+  {
+    "id": 1.7,
+    "name": "Perfume",
+    "image": "/pngegg (4).png",
+    "category": "perfume",
+    "price": "₹1999",
+    "discountPrice": "₹1200",
+    "ref": "7505/554-V2021",
+    "size": [],
+    "review": 4.2
+  },
+  {
+    "id": 1.8,
+    "name": "Sofa",
+    "image": "/Sofa.png",
+    "category": "furniture",
+    "price": "₹10999",
+    "discountPrice": "₹9999",
+    "ref": "7505/555-V2021",
+    "size": ["Blue", "Pink", "Black", "Gray", "Dark", "Lime"],
+    "review": 4.5
+  },
+  {
+    "id": 1.9,
+    "name": "Haircare-Kit",
+    "image": "/HairCare.png",
+    "category": "beauty",
+    "price": "₹599",
+    "discountPrice": "₹499",
+    "ref": "7505/556-V2021",
+    "size": ["Shampoo", "Conditioner", "Hair Oil"],
+    "review": 4.1
+  },
+  {
+    "id": 1.10,
+    "name": "Smartphone",
+    "image": "/SmartPhone.png",
+    "category": "electronics",
+    "price": "₹25999",
+    "discountPrice": "₹23999",
+    "ref": "7505/557-V2021",
+    "size": [],
+    "review": 4.7
+  }
+]

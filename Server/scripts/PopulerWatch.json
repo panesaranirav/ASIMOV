@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/SW1.png",
+    "brand": "Apple",
+    "name": "Apple Watch Series 9",
+    "review": 4.9,
+    "discountPrice": "38990",
+    "price": "39990",
+    "size": ["41mm", "45mm"],
+    "category": "smart-watch"
+  },
+  {
+    "id": 2,
+    "image": "/SW2.png",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Watch 6",
+    "review": 4.7,
+    "discountPrice": "31990",
+    "price": "32990",
+    "size": ["40mm", "44mm"],
+    "category": "smart-watch"
+  },
+  {
+    "id": 3,
+    "image": "/SW3.png",
+    "brand": "Amazfit",
+    "name": "Amazfit GTR 4",
+    "review": 4.5,
+    "discountPrice": "14999",
+    "price": "15999",
+    "size": ["42mm", "46mm"],
+    "category": "smart-watch"
+  },
+  {
+    "id": 4,
+    "image": "/SW4.png",
+    "brand": "Garmin",
+    "name": "Garmin Venu 3",
+    "review": 4.8,
+    "discountPrice": "43990",
+    "price": "44990",
+    "size": ["41mm", "45mm"],
+    "category": "smart-watch"
+  },
+  {
+    "id": 5,
+    "image": "/SW4.png",
+    "brand": "Fossil",
+    "name": "Fossil Gen 6",
+    "review": 4.4,
+    "discountPrice": "21990",
+    "price": "22990",
+    "size": ["42mm", "44mm"],
+    "category": "smart-watch"
+  },
+  {
+    "id": 6,
+    "image": "/SW5.png",
+    "brand": "OnePlus",
+    "name": "OnePlus Watch 2",
+    "review": 4.3,
+    "discountPrice": "16999",
+    "price": "17999",
+    "size": ["42mm", "46mm"],
+    "category": "smart-watch"
+  },
+  {
+    "id": 7,
+    "image": "/SW6.png",
+    "brand": "Noise",
+    "name": "Noise ColorFit Ultra 3",
+    "review": 4.2,
+    "discountPrice": "4499",
+    "price": "4999",
+    "size": ["42mm"],
+    "category": "smart-watch"
+  },
+  {
+    "id": 8,
+    "image": "/SW7.png",
+    "brand": "Boat",
+    "name": "Boat Storm Pro Call",
+    "review": 4.1,
+    "discountPrice": "2699",
+    "price": "2999",
+    "size": ["42mm"],
+    "category": "smart-watch"
+  }
+]

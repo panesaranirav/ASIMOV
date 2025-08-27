@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "image": "/W1.jpg",
+    "brand": "TimeEra",
+    "name": "Royal Classic Gold Watch",
+    "review": 4.7,
+    "discountPrice": "14999",
+    "price": "18999",
+    "size": [],
+    "category": "watch"
+  },
+  {
+    "id": 2,
+    "image": "/W2.jpg",
+    "brand": "ChronoElite",
+    "name": "Executive Silver Dial",
+    "review": 4.5,
+    "discountPrice": "12499",
+    "price": "15999",
+    "size": [],
+    "category": "watch"
+  },
+  {
+    "id": 3,
+    "image": "/W3.jpg",
+    "brand": "VintageCraft",
+    "name": "Brown Leather Heritage",
+    "review": 4.3,
+    "discountPrice": "9999",
+    "price": "12999",
+    "size": [],
+    "category": "watch"
+  },
+
+
+  {
+    "id": 4,
+    "image": "/SG1.png",
+    "brand": "ShadeUp",
+    "name": "Aviator Black Lens",
+    "review": 4.4,
+    "discountPrice": "2199",
+    "price": "2699",
+    "size": [],
+    "category": "sunglassic"
+  },
+  {
+    "id": 5,
+    "image": "/SG2.png",
+    "brand": "RetroVibe",
+    "name": "Round Retro Green",
+    "review": 4.6,
+    "discountPrice": "1799",
+    "price": "2299",
+    "size": [],
+    "category": "sunglassic"
+  },
+  {
+    "id": 6,
+    "image": "/SG3.png",
+    "brand": "GlareMax",
+    "name": "Square Matte Blue",
+    "review": 4.2,
+    "discountPrice": "2499",
+    "price": "2999",
+    "size": [],
+    "category": "sunglassic"
+  },
+  {
+    "id": 7,
+    "image": "/SG4.png",
+    "brand": "ClearVision",
+    "name": "Transparent Frame Brown",
+    "review": 4.1,
+    "discountPrice": "1599",
+    "price": "1999",
+    "size": [],
+    "category": "sunglassic"
+  },
+
+
+  {
+    "id": 8,
+    "image": "/MSW1.png",
+    "brand": "CozyWear",
+    "name": "Navy Blue Pullover",
+    "review": 4.5,
+    "discountPrice": "3199",
+    "price": "3899",
+    "size": ["M", "L", "XL"],
+    "category": "sweater"
+  },
+  {
+    "id": 9,
+    "image": "/MSW2.png",
+    "brand": "WarmNest",
+    "name": "Maroon High Neck",
+    "review": 4.4,
+    "discountPrice": "2899",
+    "price": "3599",
+    "size": ["M", "L"],
+    "category": "sweater"
+  },
+  {
+    "id": 10,
+    "image": "/MSW3.png",
+    "brand": "UrbanLayer",
+    "name": "Grey V-Neck Sweater",
+    "review": 4.2,
+    "discountPrice": "2499",
+    "price": "2999",
+    "size": ["M", "L", "XL"],
+    "category": "sweater"
+  },
+  {
+    "id": 11,
+    "image": "/MSW4.png",
+    "brand": "SnowThread",
+    "name": "White Knitwear",
+    "review": 4.6,
+    "discountPrice": "3499",
+    "price": "4299",
+    "size": ["L", "XL"],
+    "category": "sweater"
+  },
+
+
+  {
+    "id": 12,
+    "image": "/J1.png",
+    "brand": "RogueWear",
+    "name": "Black Biker Jacket",
+    "review": 4.8,
+    "discountPrice": "5999",
+    "price": "7499",
+    "size": ["M", "L", "XL"],
+    "category": "jacket"
+  },
+  {
+    "id": 13,
+    "image": "/J2.png",
+    "brand": "TrailGear",
+    "name": "Olive Utility Jacket",
+    "review": 4.5,
+    "discountPrice": "4799",
+    "price": "5999",
+    "size": ["L", "XL"],
+    "category": "jacket"
+  },
+  {
+    "id": 14,
+    "image": "/J3.png",
+    "brand": "FrostEdge",
+    "name": "Grey Quilted Jacket",
+    "review": 4.3,
+    "discountPrice": "6499",
+    "price": "7999",
+    "size": ["M", "L"],
+    "category": "jacket"
+  },
+  {
+    "id": 15,
+    "image": "/J4.png",
+    "brand": "DenimCore",
+    "name": "Casual Blue Jacket",
+    "review": 4.2,
+    "discountPrice": "3299",
+    "price": "4099",
+    "size": ["S", "M", "L"],
+    "category": "jacket"
+  },
+
+
+  {
+    "id": 16,
+    "image": "/SH1.png",
+    "brand": "WhiteThread",
+    "name": "Formal Slim White Shirt",
+    "review": 4.5,
+    "discountPrice": "1999",
+    "price": "2499",
+    "size": ["M", "L", "XL"],
+    "category": "shirt"
+  },
+  {
+    "id": 17,
+    "image": "/SH2.png",
+    "brand": "UrbanForm",
+    "name": "Black Oversized Shirt",
+    "review": 4.3,
+    "discountPrice": "1599",
+    "price": "2099",
+    "size": ["L", "XL"],
+    "category": "shirt"
+  },
+  {
+    "id": 18,
+    "image": "/SH3.png",
+    "brand": "BeachThreads",
+    "name": "Tropical Printed Shirt",
+    "review": 4.4,
+    "discountPrice": "1799",
+    "price": "2299",
+    "size": ["M", "L"],
+    "category": "shirt"
+  },
+  {
+    "id": 19,
+    "image": "/SH4.png",
+    "brand": "FlannelCo",
+    "name": "Blue Checked Flannel",
+    "review": 4.6,
+    "discountPrice": "2199",
+    "price": "2699",
+    "size": ["M", "L", "XL"],
+    "category": "shirt"
+  },
+  {
+    "id": 20,
+    "image": "/SH5.png",
+    "brand": "UtilityLine",
+    "name": "Olive Utility Shirt",
+    "review": 4.3,
+    "discountPrice": "2499",
+    "price": "2999",
+    "size": ["L", "XL"],
+    "category": "shirt"
+  }
+]

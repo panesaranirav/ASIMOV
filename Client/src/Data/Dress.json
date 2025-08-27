@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/FD1.png",
+    "brand": "Zara",
+    "name": "Floral Printed Midi Dress",
+    "review": 4.6,
+    "discountPrice": "1899",
+    "price": "2599",
+    "size": ["S", "M", "L"],
+    "category": "dress"
+  },
+  {
+    "id": 2,
+    "image": "/FD2.png",
+    "brand": "H&M",
+    "name": "Ribbed Bodycon Dress",
+    "review": 4.4,
+    "discountPrice": "1299",
+    "price": "1999",
+    "size": ["XS", "S", "M", "L"],
+    "category": "dress"
+  },
+  {
+    "id": 3,
+    "image": "/FD3.png",
+    "brand": "Forever 21",
+    "name": "Strappy Fit & Flare Dress",
+    "review": 4.3,
+    "discountPrice": "1499",
+    "price": "2199",
+    "size": ["S", "M", "L", "XL"],
+    "category": "dress"
+  },
+  {
+    "id": 4,
+    "image": "/FD4.png",
+    "brand": "ONLY",
+    "name": "Denim Shirt Dress",
+    "review": 4.5,
+    "discountPrice": "1799",
+    "price": "2499",
+    "size": ["M", "L", "XL"],
+    "category": "dress"
+  },
+  {
+    "id": 5,
+    "image": "/FD5.png",
+    "brand": "AND",
+    "name": "A-Line Printed Maxi Dress",
+    "review": 4.2,
+    "discountPrice": "1599",
+    "price": "2299",
+    "size": ["S", "M", "L", "XL"],
+    "category": "dress"
+  },
+  {
+    "id": 6,
+    "image": "/FD6.png",
+    "brand": "Biba",
+    "name": "Ethnic Flared Kurta Dress",
+    "review": 4.7,
+    "discountPrice": "1399",
+    "price": "1999",
+    "size": ["M", "L", "XL", "XXL"],
+    "category": "dress"
+  },
+  {
+    "id": 7,
+    "image": "/FD7.png",
+    "brand": "W for Woman",
+    "name": "Straight Fit Solid Dress",
+    "review": 4.3,
+    "discountPrice": "1199",
+    "price": "1799",
+    "size": ["S", "M", "L", "XL"],
+    "category": "dress"
+  },
+  {
+    "id": 8,
+    "image": "/FD8.png",
+    "brand": "Global Desi",
+    "name": "Boho Chic A-Line Dress",
+    "review": 4.4,
+    "discountPrice": "1699",
+    "price": "2399",
+    "size": ["S", "M", "L", "XL"],
+    "category": "dress"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/L1.png",
+    "brand": "Apple",
+    "name": "MacBook Air M2 13-inch",
+    "review": 4.8,
+    "discountPrice": "99999",
+    "price": "114900",
+    "size": ["8GB RAM / 256GB SSD", "8GB RAM / 512GB SSD"],
+    "category": "laptop"
+  },
+  {
+    "id": 2,
+    "image": "/L2.png",
+    "brand": "Dell",
+    "name": "Inspiron 15 5000",
+    "review": 4.4,
+    "discountPrice": "58999",
+    "price": "67999",
+    "size": ["8GB / 512GB SSD", "16GB / 1TB SSD"],
+    "category": "laptop"
+  },
+  {
+    "id": 3,
+    "image": "/L3.png",
+    "brand": "HP",
+    "name": "Pavilion x360 Touchscreen",
+    "review": 4.5,
+    "discountPrice": "64999",
+    "price": "71999",
+    "size": ["8GB / 512GB SSD"],
+    "category": "laptop"
+  },
+  {
+    "id": 4,
+    "image": "/L4.png",
+    "brand": "Lenovo",
+    "name": "IdeaPad Slim 5 AMD Ryzen 5",
+    "review": 4.3,
+    "discountPrice": "52999",
+    "price": "59999",
+    "size": ["16GB / 512GB SSD"],
+    "category": "laptop"
+  },
+  {
+    "id": 5,
+    "image": "/L5.png",
+    "brand": "ASUS",
+    "name": "VivoBook 15 OLED",
+    "review": 4.6,
+    "discountPrice": "59999",
+    "price": "67999",
+    "size": ["8GB / 512GB SSD"],
+    "category": "laptop"
+  },
+  {
+    "id": 6,
+    "image": "/L6.png",
+    "brand": "Acer",
+    "name": "Aspire 7 Gaming Laptop",
+    "review": 4.2,
+    "discountPrice": "56999",
+    "price": "62999",
+    "size": ["8GB / 512GB SSD, GTX 1650"],
+    "category": "laptop"
+  },
+  {
+    "id": 7,
+    "image": "/L7.png",
+    "brand": "MSI",
+    "name": "Modern 14 Intel Core i5",
+    "review": 4.1,
+    "discountPrice": "48999",
+    "price": "56999",
+    "size": ["8GB / 512GB SSD"],
+    "category": "laptop"
+  },
+  {
+    "id": 8,
+    "image": "/L8.png",
+    "brand": "Samsung",
+    "name": "Galaxy Book3 Core i7",
+    "review": 4.5,
+    "discountPrice": "77999",
+    "price": "89999",
+    "size": ["16GB / 512GB SSD"],
+    "category": "laptop"
+  }
+]

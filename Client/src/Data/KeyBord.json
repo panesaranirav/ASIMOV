@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/KB1.png",
+    "brand": "HyperX",
+    "name": "HyperX Alloy FPS Pro",
+    "review": 4.8,
+    "discountPrice": "6499",
+    "price": "6999",
+    "size": ["TKL", "Full-Size"],
+    "category": "keyboard"
+  },
+  {
+    "id": 2,
+    "image": "/KB2.png",
+    "brand": "Razer",
+    "name": "Razer BlackWidow V3",
+    "review": 4.7,
+    "discountPrice": "8999",
+    "price": "9999",
+    "size": ["Full-Size"],
+    "category": "keyboard"
+  },
+  {
+    "id": 3,
+    "image": "/KB3.png",
+    "brand": "Logitech",
+    "name": "Logitech G Pro X",
+    "review": 4.6,
+    "discountPrice": "10499",
+    "price": "11499",
+    "size": ["TKL"],
+    "category": "keyboard"
+  },
+  {
+    "id": 4,
+    "image": "/KB4.png",
+    "brand": "SteelSeries",
+    "name": "SteelSeries Apex Pro",
+    "review": 4.9,
+    "discountPrice": "17999",
+    "price": "18999",
+    "size": ["Full-Size"],
+    "category": "keyboard"
+  },
+  {
+    "id": 5,
+    "image": "/KB5.png",
+    "brand": "Corsair",
+    "name": "Corsair K95 RGB Platinum",
+    "review": 4.7,
+    "discountPrice": "16999",
+    "price": "17999",
+    "size": ["Full-Size"],
+    "category": "keyboard"
+  },
+  {
+    "id": 6,
+    "image": "/KB6.png",
+    "brand": "Redragon",
+    "name": "Redragon K552 Kumara",
+    "review": 4.4,
+    "discountPrice": "2999",
+    "price": "3499",
+    "size": ["TKL"],
+    "category": "keyboard"
+  },
+  {
+    "id": 7,
+    "image": "/KB7.png",
+    "brand": "Keychron",
+    "name": "Keychron K2 V2",
+    "review": 4.5,
+    "discountPrice": "6999",
+    "price": "7499",
+    "size": ["75%"],
+    "category": "keyboard"
+  },
+  {
+    "id": 8,
+    "image": "/KB8.png",
+    "brand": "Asus",
+    "name": "Asus ROG Strix Scope",
+    "review": 4.3,
+    "discountPrice": "7999",
+    "price": "8499",
+    "size": ["Full-Size"],
+    "category": "keyboard"
+  }
+]

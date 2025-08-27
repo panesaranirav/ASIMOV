@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/S1.png",
+    "brand": "Catwalk",
+    "name": "Block Heel Sandals",
+    "review": 4.5,
+    "discountPrice": "1299",
+    "price": "1799",
+    "size": ["36", "37", "38", "39"],
+    "category": "shoes"
+  },
+  {
+    "id": 2,
+    "image": "/S2.png",
+    "brand": "Metro",
+    "name": "Embellished Flats",
+    "review": 4.2,
+    "discountPrice": "899",
+    "price": "1299",
+    "size": ["35", "36", "38"],
+    "category": "shoes"
+  },
+  {
+    "id": 3,
+    "image": "/S3.png",
+    "brand": "Bata",
+    "name": "Comfort Walking Shoes",
+    "review": 4.6,
+    "discountPrice": "1099",
+    "price": "1499",
+    "size": ["36", "37", "38", "40"],
+    "category": "shoes"
+  },
+  {
+    "id": 4,
+    "image": "/S4.png",
+    "brand": "Crocs",
+    "name": "Casual Clog Sandals",
+    "review": 4.7,
+    "discountPrice": "1599",
+    "price": "2299",
+    "size": ["36", "37", "39", "40"],
+    "category": "shoes"
+  },
+  {
+    "id": 5,
+    "image": "/S5.png",
+    "brand": "Puma",
+    "name": "Running Shoes",
+    "review": 4.8,
+    "discountPrice": "2199",
+    "price": "2999",
+    "size": ["36", "38", "39", "41"],
+    "category": "shoes"
+  },
+  {
+    "id": 6,
+    "image": "/S6.png",
+    "brand": "Nike",
+    "name": "Air Zoom Sneakers",
+    "review": 4.9,
+    "discountPrice": "2499",
+    "price": "3599",
+    "size": ["37", "38", "40"],
+    "category": "shoes"
+  },
+  {
+    "id": 7,
+    "image": "/S7.png",
+    "brand": "Skechers",
+    "name": "Slip-On Walking Shoes",
+    "review": 4.4,
+    "discountPrice": "1999",
+    "price": "2599",
+    "size": ["36", "37", "39", "40"],
+    "category": "shoes"
+  },
+  {
+    "id": 8,
+    "image": "/S8.png",
+    "brand": "Red Tape",
+    "name": "Textured Sport Sneakers",
+    "review": 4.3,
+    "discountPrice": "1499",
+    "price": "1999",
+    "size": ["36", "38", "40", "42"],
+    "category": "shoes"
+  }
+]

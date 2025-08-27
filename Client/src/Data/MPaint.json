@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/MP1.png",
+    "brand": "Mufti",
+    "name": "Slim Fit Chino Pants",
+    "review": 4.6,
+    "discountPrice": "1299",
+    "price": "1999",
+    "size": ["30", "32", "34"],
+    "category": "pant"
+  },
+  {
+    "id": 2,
+    "image": "/MP2.png",
+    "brand": "Peter England",
+    "name": "Casual Cotton Trousers",
+    "review": 4.4,
+    "discountPrice": "999",
+    "price": "1599",
+    "size": ["28", "30", "32"],
+    "category": "pant"
+  },
+  {
+    "id": 3,
+    "image": "/MP3.png",
+    "brand": "Allen Solly",
+    "name": "Khaki Slim Fit Pants",
+    "review": 4.8,
+    "discountPrice": "1499",
+    "price": "2299",
+    "size": ["32", "34", "36"],
+    "category": "pant"
+  },
+  {
+    "id": 4,
+    "image": "/MP4.png",
+    "brand": "Louis Philippe",
+    "name": "Formal Black Trousers",
+    "review": 4.7,
+    "discountPrice": "1799",
+    "price": "2499",
+    "size": ["30", "32", "34"],
+    "category": "pant"
+  },
+  {
+    "id": 5,
+    "image": "/MP5.png",
+    "brand": "Spykar",
+    "name": "Urban Slim Denim",
+    "review": 4.5,
+    "discountPrice": "1399",
+    "price": "1999",
+    "size": ["30", "34", "36"],
+    "category": "pant"
+  },
+  {
+    "id": 6,
+    "image": "/MP6.png",
+    "brand": "Killer",
+    "name": "Dark Blue Skinny Jeans",
+    "review": 4.2,
+    "discountPrice": "1199",
+    "price": "1699",
+    "size": ["28", "32", "38"],
+    "category": "pant"
+  },
+  {
+    "id": 7,
+    "image": "/MP7.png",
+    "brand": "Levi's",
+    "name": "511 Slim Fit Denim",
+    "review": 4.9,
+    "discountPrice": "1999",
+    "price": "2899",
+    "size": ["30", "32", "36", "38"],
+    "category": "pant"
+  },
+  {
+    "id": 8,
+    "image": "/MP8.png",
+    "brand": "Roadster",
+    "name": "Washed Grey Joggers",
+    "review": 4.3,
+    "discountPrice": "899",
+    "price": "1299",
+    "size": ["30", "32", "40"],
+    "category": "pant"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/PH1.png",
+    "brand": "Apple",
+    "name": "I-Phone 14 Pro",
+    "review": 4.9,
+    "discountPrice": "119999",
+    "price": "129999",
+    "size": ["128GB", "256GB", "512GB"],
+    "category": "smartphone"
+  },
+  {
+    "id": 2,
+    "image": "/PH2.png",
+    "brand": "Samsung",
+    "name": "Galaxy S23 Ultra",
+    "review": 4.8,
+    "discountPrice": "99999",
+    "price": "114999",
+    "size": ["256GB", "512GB"],
+    "category": "smartphone"
+  },
+  {
+    "id": 3,
+    "image": "/PH3.png",
+    "brand": "OnePlus",
+    "name": "OnePlus 11 5G",
+    "review": 4.7,
+    "discountPrice": "56999",
+    "price": "61999",
+    "size": ["128GB", "256GB"],
+    "category": "smartphone"
+  },
+  {
+    "id": 4,
+    "image": "/PH4.png",
+    "brand": "Xiaomi",
+    "name": "Redmi Note 12 Pro+ 5G",
+    "review": 4.5,
+    "discountPrice": "28999",
+    "price": "32999",
+    "size": ["128GB", "256GB"],
+    "category": "smartphone"
+  },
+  {
+    "id": 5,
+    "image": "/PH5.png",
+    "brand": "Realme",
+    "name": "Realme Narzo 60 5G",
+    "review": 4.3,
+    "discountPrice": "17999",
+    "price": "19999",
+    "size": ["128GB", "256GB"],
+    "category": "smartphone"
+  },
+  {
+    "id": 6,
+    "image": "/PH6.png",
+    "brand": "Google",
+    "name": "Pixel 7",
+    "review": 4.6,
+    "discountPrice": "57999",
+    "price": "64999",
+    "size": ["128GB", "256GB"],
+    "category": "smartphone"
+  },
+  {
+    "id": 7,
+    "image": "/PH7.png",
+    "brand": "Motorola",
+    "name": "Edge 40",
+    "review": 4.4,
+    "discountPrice": "29999",
+    "price": "34999",
+    "size": ["128GB", "256GB"],
+    "category": "smartphone"
+  },
+  {
+    "id": 8,
+    "image": "/PH8.png",
+    "brand": "iQOO",
+    "name": "iQOO Neo 7",
+    "review": 4.5,
+    "discountPrice": "27999",
+    "price": "31999",
+    "size": ["128GB", "256GB"],
+    "category": "smartphone"
+  }
+]

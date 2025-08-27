@@ -1,0 +1,16 @@
+http://localhost:5000/api/products/dresses
+http://localhost:5000/api/products/fpaints
+http://localhost:5000/api/products/haircares
+http://localhost:5000/api/products/keybords
+http://localhost:5000/api/products/keybordtemplets
+http://localhost:5000/api/products/laptops
+http://localhost:5000/api/products/mpaints
+http://localhost:5000/api/products/perfumes
+http://localhost:5000/api/products/phones
+http://localhost:5000/api/products/populerwatches
+http://localhost:5000/api/products/productpages
+http://localhost:5000/api/products/products
+http://localhost:5000/api/products/shoes
+http://localhost:5000/api/products/sofas
+http://localhost:5000/api/products/sunglassics
+http://localhost:5000/api/products/tshartsuggests

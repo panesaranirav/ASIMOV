@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/SG1.png",
+    "brand": "ShadeUp",
+    "name": "Aviator Black Lens",
+    "review": 4.4,
+    "discountPrice": "2199",
+    "price": "2699",
+    "size": [],
+    "category": "sunglasses"
+  },
+  {
+    "id": 2,
+    "image": "/SG2.png",
+    "brand": "RetroVibe",
+    "name": "Round Retro Green",
+    "review": 4.6,
+    "discountPrice": "1799",
+    "price": "2299",
+    "size": [],
+    "category": "sunglasses"
+  },
+  {
+    "id": 3,
+    "image": "/SG3.png",
+    "brand": "GlareMax",
+    "name": "Square Matte Blue",
+    "review": 4.2,
+    "discountPrice": "2499",
+    "price": "2999",
+    "size": [],
+    "category": "sunglasses"
+  },
+  {
+    "id": 4,
+    "image": "/SG4.png",
+    "brand": "ClearVision",
+    "name": "Transparent Frame Brown",
+    "review": 4.1,
+    "discountPrice": "1599",
+    "price": "1999",
+    "size": [],
+    "category": "sunglasses"
+  },
+  {
+    "id": 5,
+    "image": "/SG5.png",
+    "brand": "LuxVue",
+    "name": "Gold Rimmed Polarized",
+    "review": 4.7,
+    "discountPrice": "2899",
+    "price": "3499",
+    "size": [],
+    "category": "sunglasses"
+  },
+  {
+    "id": 6,
+    "image": "/SG6.png",
+    "brand": "SunCore",
+    "name": "Dual-Tone Mirrored Shades",
+    "review": 4.5,
+    "discountPrice": "1999",
+    "price": "2499",
+    "size": [],
+    "category": "sunglasses"
+  },
+  {
+    "id": 7,
+    "image": "/SG7.png",
+    "brand": "Visionary",
+    "name": "Oversized Square Black",
+    "review": 4.3,
+    "discountPrice": "1899",
+    "price": "2399",
+    "size": [],
+    "category": "sunglasses"
+  },
+  {
+    "id": 8,
+    "image": "/SG8.png",
+    "brand": "UrbanEyes",
+    "name": "Matte Grey Sporty Look",
+    "review": 4.4,
+    "discountPrice": "1699",
+    "price": "2199",
+    "size": [],
+    "category": "sunglasses"
+  }
+]

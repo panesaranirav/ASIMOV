@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/KBB1.jpg",
+    "name": "KOODO Gecko 60% Layout RGB Mechanical Keyboard Outemu",
+    "brand": "KOODO Official",
+    "rating": 4.7,
+    "price": "Rp:450.000"
+  },
+  {
+    "id": 2,
+    "image": "/KBB2.png",
+    "name": "Noir N1 Wireless RGB Mechanical Keyboard",
+    "brand": "Noir Official",
+    "rating": 4.8,
+    "price": "Rp:520.000"
+  },
+  {
+    "id": 3,
+    "image": "/KBB3.png",
+    "name": "Rexus Daxa M71 Pro 65% Compact Mechanical Keyboard",
+    "brand": "Rexus",
+    "rating": 4.6,
+    "price": "Rp:480.000"
+  },
+  {
+    "id": 4,
+    "image": "/KBB4.png",
+    "name": "Keychron K6 Bluetooth RGB Mechanical Keyboard",
+    "brand": "Keychron",
+    "rating": 4.9,
+    "price": "Rp:750.000"
+  },
+  {
+    "id": 5,
+    "image": "/KBB5.png",
+    "name": "Logitech G Pro X TKL Gaming Mechanical Keyboard",
+    "brand": "Logitech",
+    "rating": 4.8,
+    "price": "Rp:1,200.000"
+  },
+  {
+    "id": 6,
+    "image": "/KBB6.png",
+    "name": "Royal Kludge RK61 Wireless RGB 60% Mechanical Keyboard",
+    "brand": "Royal Kludge",
+    "rating": 4.5,
+    "price": "Rp:430.000"
+  }
+]
