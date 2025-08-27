@@ -7,7 +7,7 @@ import popularItemsRoutes from "./routes/popularItems.js";
 import orderRoutes from "./routes/orderRoutes.js";
 
 const app = express();
-const PORT = 5000;
+const PORT =  process.env.PORT || 5000;
 dotenv.config();
 
 // Enable CORS and JSON
