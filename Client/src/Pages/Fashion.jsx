@@ -1,4 +1,4 @@
-import productData from "../data/productPage.json";
+import productData from "../Data/ProductPage.json";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
