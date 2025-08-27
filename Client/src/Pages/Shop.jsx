@@ -60,6 +60,16 @@ const Shop = () => {
     fetchPopularItems();
   }, []);
 
+  // Skeleton Loader Component
+  const SkeletonCard = ({ width = "w-[200px]", height = "h-[250px]" }) => (
+    <div
+      className={`${width} ${height} bg-gray-200 animate-pulse rounded-3xl flex flex-col items-center justify-center`}
+    >
+      <div className="w-[160px] h-[150px] bg-gray-300 rounded-xl mb-2"></div>
+      <div className="w-3/4 h-4 bg-gray-300 rounded"></div>
+    </div>
+  );
+
   return (
     <>
       {/* Hero Section */}
@@ -97,9 +107,11 @@ const Shop = () => {
           m-w-[1200px] h-auto p-4 mx-[5%] gap-2 rounded-4xl"
         >
           {catLoading ? (
-            <p className="text-center col-span-full py-10 text-lg font-medium">
-              🔄 Loading...
-            </p>
+            <>
+              {[...Array(5)].map((_, i) => (
+                <SkeletonCard key={i} />
+              ))}
+            </>
           ) : catError ? (
             <p className="text-center text-red-600 font-semibold col-span-full">
               {catError}
@@ -139,7 +151,15 @@ const Shop = () => {
         </h1>
         <div className="bg-[#55555521] w-[92%] m-auto rounded-3xl flex flex-wrap justify-center gap-6 sm:gap-8 py-6">
           {popLoading ? (
-            <p className="text-center text-lg font-medium">🔄 Loading...</p>
+            <>
+              {[...Array(5)].map((_, i) => (
+                <SkeletonCard
+                  key={i}
+                  width="w-[150px]"
+                  height="h-[200px]"
+                />
+              ))}
+            </>
           ) : popError ? (
             <p className="text-center text-red-600 font-semibold">{popError}</p>
           ) : popularItems.length === 0 ? (
