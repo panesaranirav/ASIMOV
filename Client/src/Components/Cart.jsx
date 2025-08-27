@@ -64,7 +64,7 @@ const Cart = () => {
     try {
       await axios.post("http://localhost:5000/api/orders/place-order", order);
 
-      setShowSuccess(true); // Show success message
+      setShowSuccess(true); 
 
       setTimeout(() => {
         setShowSuccess(false);
@@ -238,9 +238,11 @@ const Cart = () => {
           </div>
         </div>
       </div>
-
-      {/* Success message overlay */}
-      {showSuccess && <OrderSuccess onClose={() => setShowSuccess(false)} />}
+      {showSuccess && (
+        <div className="mt-4 p-2 bg-green-100 text-green-700 rounded">
+          ✅ Order placed successfully!
+        </div>
+      )}
     </div>
   );
 };
