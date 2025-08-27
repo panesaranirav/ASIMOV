@@ -33,7 +33,9 @@ const CategoryProducts = () => {
     fetchProducts();
   }, [category]);
 
-  if (loading) return <p className="text-center py-10">Loading...</p>;
+  if (loading) return <div className="flex justify-center items-center py-10">
+  <div className="w-8 h-8 border-4 border-gray-300 border-t-black rounded-full animate-spin"></div>
+</div>
   if (error) return <p className="text-center text-red-500">{error}</p>;
 
   return (
