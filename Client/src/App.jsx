@@ -36,7 +36,7 @@ import BankCards from "./Pages/MyAccount/BankCards";
 
 // Components
 import Navbar from "./Components/Navbar";
-import { ProtectedRoute } from "./components/ProtectedRoute";
+import { ProtectedRoute } from "./Components/ProtectedRoute";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import Cart from "./Components/Cart";
