@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
 const Cart = () => {
-  const { cart, addToCart ,removeFromCart, updateQuantity } = useCart();
+  const { cart, addToCart, removeFromCart, updateQuantity } = useCart();
 
   const [name, setName] = useState("");
   const [address, setAddress] = useState("");
@@ -18,9 +18,7 @@ const Cart = () => {
   const [expiry, setExpiry] = useState("");
   const [cvv, setCvv] = useState("");
   const [upiId, setUpiId] = useState("");
-  const [orderPlaced, setOrderPlaced] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-
 
   const navigate = useNavigate();
 
@@ -32,10 +30,10 @@ const Cart = () => {
   const total = subtotal + shipping;
 
   const handlePlaceOrder = async () => {
-  if (!name || !address || !paymentMethod) {
-    toast.error("Please fill in all required fields before placing your order.");
-    return;
-  }
+    if (!name || !address || !paymentMethod) {
+      toast.error("Please fill in all required fields before placing your order.");
+      return;
+    }
 
     if (paymentMethod === "card" && (!cardNumber || !expiry || !cvv)) {
       alert("Please fill in all card details.");
@@ -64,16 +62,13 @@ const Cart = () => {
     };
 
     try {
-      await axios.post(
-        "http://localhost:5000/api/orders/place-order",
-        order
-      );
+      await axios.post("http://localhost:5000/api/orders/place-order", order);
 
-      setShowSuccess(true);
+      setShowSuccess(true); // Show success message
 
       setTimeout(() => {
-        setOrderPlaced(false);
-        localStorage.removeItem("cart"); 
+        setShowSuccess(false);
+        localStorage.removeItem("cart");
         navigate("/shop");
       }, 3000);
     } catch (err) {
@@ -84,10 +79,9 @@ const Cart = () => {
 
   return (
     <div className="min-h-screen bg-white text-black flex flex-col items-center">
-      {orderPlaced && <OrderSuccess />}
-
       <div className="w-[90%] max-w-6xl mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
         
+        {/* Left - Address & Payment */}
         <div className="space-y-4">
           <h2 className="text-gray-400 text-sm font-semibold">PAYMENT</h2>
 
@@ -135,7 +129,6 @@ const Cart = () => {
             <option value="upi">UPI</option>
           </select>
 
-        
           {paymentMethod === "card" && (
             <div className="space-y-2">
               <input
@@ -180,7 +173,7 @@ const Cart = () => {
           </button>
         </div>
 
-     
+        {/* Right - Cart Items */}
         <div className="bg-white shadow-md p-6 rounded-lg">
           <h3 className="text-xl font-bold mb-4">Cart ({cart.length})</h3>
 
@@ -222,13 +215,12 @@ const Cart = () => {
                   className="text-red-500 mt-2"
                   onClick={() => removeFromCart(item._id)}
                 >
-                  <FaTrash className="cursor-pointer"/>
+                  <FaTrash className="cursor-pointer" />
                 </button>
               </div>
             </div>
           ))}
 
-         
           <div className="mt-6 text-sm space-y-1">
             <div className="flex justify-between">
               <span>Subtotal</span>
@@ -246,7 +238,9 @@ const Cart = () => {
           </div>
         </div>
       </div>
-       {showSuccess && <OrderSuccess onClose={() => setShowSuccess(false)} />}
+
+      {/* Success message overlay */}
+      {showSuccess && <OrderSuccess onClose={() => setShowSuccess(false)} />}
     </div>
   );
 };
