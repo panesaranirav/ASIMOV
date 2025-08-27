@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
-import { useLikes } from "../context/LikesContext"; 
+import { useLikes } from "../Context/LikesContext"; 
 
 const CategoryProducts = () => {
   const { category } = useParams();
