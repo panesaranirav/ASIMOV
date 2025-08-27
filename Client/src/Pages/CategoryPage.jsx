@@ -37,7 +37,7 @@ const CategoryProducts = () => {
   if (error) return <p className="text-center text-red-500">{error}</p>;
 
   return (
-    <div className="px-21 mx-2 mb-8">
+    <div className="px-35 mx-2 mb-8">
       <h1 className="text-3xl font-bold mb-6 capitalize">{category}</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
