@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../Context/CartContext";
 import { FaPlus, FaMinus, FaTrash } from "react-icons/fa";
 import axios from "axios";
 import toast from "react-hot-toast";
-import OrderSuccessModal from "./OrderSuccessModal";
+import OrderSuccessModal from "./OrderSuccess";
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
@@ -20,7 +20,7 @@ const Cart = () => {
   const [cvv, setCvv] = useState("");
   const [upiId, setUpiId] = useState("");
 
-  // ✅ Only one success state
+  
   const [showSuccess, setShowSuccess] = useState(false);
 
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -63,7 +63,7 @@ const Cart = () => {
         order
       );
 
-      setShowSuccess(true); // ✅ Show success modal
+      setShowSuccess(true);
 
       setTimeout(() => {
         setShowSuccess(false);
