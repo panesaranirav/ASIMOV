@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../Context/CartContext";
 import { FaPlus, FaMinus, FaTrash } from "react-icons/fa";
 import axios from "axios";
 import OrderSuccess from "./OrderSuccess";
