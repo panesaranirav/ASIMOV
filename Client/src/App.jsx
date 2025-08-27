@@ -19,7 +19,7 @@ import Dashboard from "./Pages/Dashboard";
 import Fashion from "./Pages/Fashion";
 import Gaming from "./Pages/Gaming";
 import CustomerService from "./Pages/CustomerService";
-import Login from "./pages/Login";
+import Login from "./Pages/Login";
 import Shop from './Pages/Shop'
 import CheckOrder from "./Pages/CheckOrder";
 import StoreDescription from "./Pages/StoreDescription";

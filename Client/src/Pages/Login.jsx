@@ -1,9 +1,8 @@
-// src/pages/LoginPage.jsx
 import { useUser } from "@clerk/clerk-react";
 import { Navigate } from "react-router-dom";
 import { SignIn } from "@clerk/clerk-react";
 
-const LoginPage = () => {
+const Login = () => {
   const { isSignedIn, isLoaded } = useUser();
 
   if (!isLoaded) return null;
@@ -17,4 +16,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Login;
