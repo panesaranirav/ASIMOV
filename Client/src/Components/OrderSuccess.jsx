@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
-const OrderSuccessModal = ({ isOpen, onClose, orderId, orderNumber }) => {
+const OrderSuccess = ({ isOpen, onClose, orderId, orderNumber }) => {
   if (!isOpen) return null;
 
   return (
@@ -30,4 +30,4 @@ No. Order {orderNumber}
   );
 };
 
-export default OrderSuccessModal;
+export default OrderSuccess;

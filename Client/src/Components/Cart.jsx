@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { useCart } from "../Context/CartContext";
 import { FaPlus, FaMinus, FaTrash } from "react-icons/fa";
