@@ -5,7 +5,7 @@ import { FaPlus, FaMinus, FaTrash } from "react-icons/fa";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import OrderSuccessModal from "../Components/OrderSuccess";
+import OrderSuccess from "../Components/OrderSuccess";
 
 
 const Cart = () => {
@@ -242,7 +242,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <OrderSuccessModal
+      <OrderSuccess
   isOpen={showSuccessModal}
   onClose={() => setShowSuccessModal(false)}
   orderId="12345"
