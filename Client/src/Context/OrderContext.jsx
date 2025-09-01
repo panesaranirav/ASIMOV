@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
 
+
 const OrderContext = createContext();
 
 export const OrderProvider = ({ children }) => {
@@ -8,7 +9,7 @@ export const OrderProvider = ({ children }) => {
 
   const fetchOrders = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/orders"); 
+     const res = await axios.get(`${process.env.VITE_API_URL}/api/orders`);
       if (Array.isArray(res.data)) {
         setOrders(res.data);
       } else {
@@ -23,7 +24,9 @@ export const OrderProvider = ({ children }) => {
 
   const cancelOrder = async (orderId) => {
     try {
-      await axios.put(`http://localhost:5000/api/orders/${orderId}/cancel`);
+     await axios.put(
+      `${import.meta.env.VITE_API_URL}/api/orders/${orderId}/cancel`
+    );
       fetchOrders();
     } catch (err) {
       console.error("Error cancelling order:", err);
@@ -32,7 +35,9 @@ export const OrderProvider = ({ children }) => {
 
   const deleteOrder = async (orderId) => {
     try {
-      await axios.delete(`http://localhost:5000/api/orders/${orderId}`);
+      await axios.delete(
+      `${import.meta.env.VITE_API_URL}/api/orders/${orderId}`
+    );
       fetchOrders();
     } catch (err) {
       console.error("Error deleting order:", err);
