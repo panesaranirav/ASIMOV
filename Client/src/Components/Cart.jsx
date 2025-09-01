@@ -66,7 +66,10 @@ const Cart = () => {
     };
 
     try {
-      await axios.post("http://localhost:5000/api/orders/place-order", order);
+     await axios.post(
+  `${import.meta.env.VITE_API_URL}/api/orders/place-order`,
+  order
+);
 
       setShowSuccessModal(true); 
 
