@@ -4,7 +4,7 @@ import { FaPlus, FaMinus, FaTrash } from "react-icons/fa";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import OrderSuccessModal from "../components/OrderSuccess";
+import OrderSuccessModal from "../Components/OrderSuccess";
 
 
 const Cart = () => {
