@@ -9,7 +9,7 @@ import OrderSuccess from "../Components/OrderSuccess";
 
 
 const Cart = () => {
-  const { cart, addToCart, removeFromCart, updateQuantity } = useCart();
+  const { cart, addToCart, removeFromCart, updateQuantity , clearCart  } = useCart();
 
   const [name, setName] = useState("");
   const [address, setAddress] = useState("");
@@ -73,6 +73,9 @@ const Cart = () => {
 
       setShowSuccessModal(true); 
 
+      clearCart(); 
+  localStorage.removeItem("cart");
+
       setTimeout(() => {
         setShowSuccess(false);
         localStorage.removeItem("cart");
@@ -88,7 +91,7 @@ const Cart = () => {
     <div className="min-h-screen bg-white text-black flex flex-col items-center">
       <div className="w-[90%] max-w-6xl mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
         
-        {/* Left - Address & Payment */}
+      
         <div className="space-y-4">
           <h2 className="text-gray-400 text-sm font-semibold">PAYMENT</h2>
 
@@ -248,8 +251,8 @@ const Cart = () => {
       <OrderSuccess
   isOpen={showSuccessModal}
   onClose={() => setShowSuccessModal(false)}
-  orderId="12345"
-  orderNumber="7890"
+  orderId="3401"
+  orderNumber="3590"
 />
 
     </div>

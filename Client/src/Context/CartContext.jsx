@@ -37,7 +37,6 @@ export const CartProvider = ({ children }) => {
     );
   };
 
-  // ✅ Add this function
   const clearCart = () => {
     setCart([]);
   };
